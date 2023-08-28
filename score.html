@@ -5,19 +5,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="bulma/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-        <title>Scores</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <title>High Scores</title>
     </head>
 
+    <style> body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+      body {
+            margin: 0;
+            background-color: #413d3d;
+        }
 
+    
+    </style>
     <body>
         <div id="container">
             <div id="timer"></div>
             <div id="quizContent">
-                <h1>Highscores</h1>
+                <h1 class="title has-text-centered has-text-white py-4">Highscores</h1>
                 <ul id="displayScores"></ul>
-                <button id="back">Go Back</button>
-                <button id="clear" value="reset">Clear Highscore</button>
+                <Div class="buttons is-centered">
+                <button id="back" class="button is-warning mx-4">Go Back</button>
+                <button id="clear" class="button is-danger" value="reset">Clear Highscore</button>
             </div>
 
         </div>
