@@ -53,8 +53,8 @@ var questions = [
     },
     {
         title: "Where is the correct place to insert JavaScript on a web page?",
-        choices: ["Inside <head>", "Inside <body>", "Inside <head> and <body>", "None of these"],
-        answer: "Inside <head> and <body>"
+        choices: ["Inside head", "Inside body", "Inside head and body", "None of these"],
+        answer: "Inside head and body"
     }   
 ];
 
